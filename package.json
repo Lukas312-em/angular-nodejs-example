@@ -7,7 +7,8 @@
     "start": "node server.bundle.js",
     "build": "webpack",
     "dev": "nodemon ./server.js localhost 3080",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gogo": "node server && ./myapp ng serve"
   },
   "repository": {
     "type": "git",
